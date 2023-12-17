@@ -16,7 +16,7 @@
 + [Questions](#questions)
 
 ## Overview
-
+This project creates a fully functional back-end for an e-commerce website. The application configures an Express.js API to use Sequelize to interact with a MySQL database
 
 ## Installation
 ***Install these programs on your computer:***
