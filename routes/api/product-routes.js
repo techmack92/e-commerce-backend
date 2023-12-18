@@ -16,7 +16,7 @@ router.get('/', async (req, res) => {
         {
           model: Tag,
           through: ProductTag,
-          as: 'Tags'
+          as: 'tags'
         },
       ],
     });
@@ -40,7 +40,7 @@ router.get('/:id', async (req, res) => {
         {
           model: Tag,
           through: ProductTag,
-          as: 'Tags'
+          as: 'tags'
         },
       ],
     });
@@ -73,7 +73,7 @@ router.post('/', async (req, res) => {
     if (req.body.tagIds && req.body.tagIds.length) {
       const productTagIdArr = req.body.tagIds.map((tag_id) => {
         return {
-          product_id: product.id,
+          product_id: newProduct.id,
           tag_id,
         };
       });

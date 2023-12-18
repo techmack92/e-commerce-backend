@@ -21,7 +21,7 @@ router.get('/', async (req, res) => {
 // be sure to include its associated Product data
 router.get('/:id', async (req, res) => {
   try {
-    const tag = await Tag.findByPk({
+    const tag = await Tag.findByPk(req.params.id, {
       include: Product,
     });
 
