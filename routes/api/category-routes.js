@@ -55,8 +55,8 @@ router.put('/:id', async (req, res) => {
       where: { id: req.params.id },
     });
 
-    if (updateCat[0] === 0) {
-      res.status(404).json({ message: 'Category not found🚫' });
+    if (!updateCat) {
+      res.status(404).json({ message: 'Category not found with that id🚫' });
       return;
     }
 
@@ -74,8 +74,8 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id },
     });
 
-    if (deleteCat === 0) {
-      res.status(404).json({ message: 'Category not found🚫' });
+    if (!deleteCat) {
+      res.status(404).json({ message: 'Category not found with that id🚫' });
       return;
     }
 
