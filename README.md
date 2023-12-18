@@ -41,7 +41,7 @@ This project creates a fully functional back-end for an e-commerce website. The 
 4. Connect to the server & begin the application by using command: `npm start`<br> 
 
 ## Demo
-[Demo Walkthrough]()<br>
+[Demo Walkthrough](https://drive.google.com/file/d/11-lspdVNFxWrrWCYSI3h-ERPZQrjoBTT/view?usp=sharing)<br>
 
 ## Contributing
 If you have any contributing ideas for this project, contact me using the methods in [Questions](#questions) section
