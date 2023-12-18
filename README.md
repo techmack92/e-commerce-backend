@@ -1,4 +1,4 @@
-# E-commerce Back End Starter Code
+# E-commerce Back End 
 [![GitHub license](https://img.shields.io/badge/License-MIT-limegreen.svg)](https://opensource.org/licenses/MIT)<br>
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
@@ -26,15 +26,19 @@ This project creates a fully functional back-end for an e-commerce website. The 
 + MySQL2<br>
 
 ***Install Node Package Manager and Dependencies:***<br>
-1. Use command: `npm init -y` to install the Node Package Manager<br> 
-2. Use command: `npm install dotenv` to install the dotenv package<br>
-3. Use command: `npm install --save mysql2` to install the MySQL2 package for the database queries<br>
-4. Use command: `npm install express` to install the express package<br>
-5. Use command: `npm install sequelize` to install the sequelize package<br>
+1. Clone this repository<br>
+2. Use command: `npm install` to install the Node Package Manager<br> 
+3. Use command: `npm install dotenv` to install the dotenv package<br>
+4. Use command: `npm install --save mysql2` to install the MySQL2 package for the database queries<br>
+5. Use command: `npm install express` to install the express package<br>
+6. Use command: `npm install sequelize` to install the sequelize package<br>
 
 ## Usage
-When user has completed all installation steps:<br> 
-1. Begin the application by using command: `node server.js`<br> 
+***When user has completed all installation steps above:***<br> 
+1. Connect to the database by using command: `mysql -u root -p` & enter password from .env file
+2. Use command: `SOURCE schema.sql;`<br>
+3. Seed data to the database by using command: `npm run seed`<br>
+4. Connect to the server & begin the application by using command: `npm start`<br> 
 
 ## Demo
 [Demo Walkthrough]()<br>
